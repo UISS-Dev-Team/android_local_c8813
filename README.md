@@ -5,8 +5,8 @@ How to build:
 
 Initialize repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
-    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/ivan19871002/android_local_manifest/cm-10.1/local_manifest.xml
+    repo init -u ssh://<username>@review.mfunz.com:29418/MoKee/android.git -b jb-mr1_mkt  <username>注册的名称
+    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_manifest/mk-4.22/local_manifest.xml
     repo sync
 
 Compile:
@@ -19,8 +19,8 @@ Compile:
 
 初始化代码:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
-    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/ivan19871002/android_local_manifest/cm-10.1/local_manifest.xml
+    repo init -u ssh://<username>@review.mfunz.com:29418/MoKee/android.git -b jb-mr1_mkt  <username>注册的名称
+    curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/UISS-Dev-Team/android_local_manifest/mk-4.22/local_manifest.xml
     repo sync
 
 编译：
