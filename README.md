@@ -1,4 +1,4 @@
-Local manifests for building CyanogenMod 10.1 for Huawei Device
+Local manifests for building MoKee OS for Huawei Device
 
 How to build:
 -------------
