@@ -6,15 +6,19 @@
            
   <!-- CM replacements -->
   <remove-project name="CyanogenMod/hardware/qcom/display" />
+  <remove-project name="CyanogenMod/hardware/qcom/display-legacy" />
     
   <!-- Local projects -->
   <project path="hardware/atheros/wifi/libs" name="UISS-Dev-Team/android_hardware_atheros_wifi_libs" remote="gh" revision="cm-10.1" />
-  <project path="hardware/qcom/display-legacy" name="UISS-Dev-Team/android_hardware_qcom_display" remote="gh" revision="cm-10.1-new" />
+  <project path="hardware/qcom/display-legacy" name="UISS-Dev-Team/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.1" />
 
   <!-- HuaWei C8813 -->
   <project path="device/huawei/c8813" name="UISS-Dev-Team/android_device_huawei_c8813" remote="gh" revision="cm-10.1" />
 
   <!-- HuaWei Vendor -->
   <project path="vendor/huawei/c8813" name="UISS-Dev-Team/android_vendor_huawei" remote="gh" revision="cm-10.1" />
+  
+  <!-- HuaWei Kernel -->
+  <project path="Kernel/huawei/c8813" name="UISS-Dev-Team/android_Kernel_huawei_c8813" remote="gh" revision="master" />
   
 </manifest>
